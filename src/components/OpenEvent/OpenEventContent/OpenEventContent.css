@@ -1,0 +1,32 @@
+.open-event{
+    padding: 2rem 6rem;
+    color: #312F44;
+}
+
+.open-event h2{
+    margin-bottom: 1rem;
+    font-size: 1.15rem;
+}
+.open-event p{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+@media(max-width:850px){
+    .open-event{
+        padding: 2rem;
+    }
+}
+@media(max-width:650px){
+    .open-event h2{
+        font-size: 1.1rem;
+    }
+    .open-event p{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:550px){
+    .open-event{
+        padding-inline: 1rem;
+    }
+}

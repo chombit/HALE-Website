@@ -1,0 +1,87 @@
+.open-team-content {
+  padding: 3rem 6rem;
+  padding-top: 5rem;
+  color: #312f44;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 2rem;
+  background-color: #f7f7f7;
+}
+.open-team-content > button {
+  position: absolute;
+  top: 2rem;
+  left: 6.4%;
+  border: none;
+  background-color: #2d784e;
+  color: #f7f7f7;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.9rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.open-team-content .profile-pic {
+  width: 45%;
+  height: 35rem;
+}
+.open-team-content .profile-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  /* filter: brightness(80%); */
+  object-fit: cover;
+}
+.open-team-content .txt-container {
+  width: 60%;
+}
+.open-team-content .txt-container h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.open-team-content .txt-container h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #2d784e;
+  margin-bottom: 2rem;
+}
+.open-team-content .txt-container p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+  line-height: 1.5;
+}
+@media (max-width: 1000px) {
+  .open-team-content {
+    padding-inline: 2rem;
+  }
+}
+@media (max-width: 850px) {
+  .open-team-content .txt-container h1 {
+    font-size: 1.1rem;
+  }
+  .open-team-content .txt-container h3 {
+    font-size: 0.9rem;
+  }
+  .open-team-content .txt-container p {
+    font-size: 0.9rem;
+  }
+}
+@media(max-width:650px){
+    .open-team-content{
+        flex-flow: column;
+    }
+    .open-team-content .profile-pic{
+        width: 100%;
+        height: 27rem;
+    }
+    .open-team-content .txt-container{
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .open-team-content{
+        padding-inline: 1rem;
+    }
+    .open-team-content .profile-pic{
+        height: 20rem;
+    }
+}

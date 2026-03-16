@@ -1,0 +1,97 @@
+.company-values{
+    padding: 2rem 6rem;
+    /* padding-top: 8.5rem; */
+    color: #fff;
+    position: relative;
+    /* min-height: 85vh; */
+    display: flex;
+    gap: 8rem;
+    cursor: default;
+    background-color: #312f44;
+}
+.company-values > h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.company-values hr{
+    background-color: #2d784e;
+    height: 0.5rem;
+    width: 10%;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+.company-values .value{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    width: 50%;
+}
+.company-values .value:first-child{
+    transform: translateX(-8rem);
+    opacity: 0;
+}
+.company-values .value:nth-child(2){
+    transform: translateX(8rem);
+    opacity: 0;
+}
+.company-values .value.visible{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.5s ease;
+    /* transition-delay: 0.5s; */
+}
+.company-values .value img{
+    border-radius: 7px;
+    position: absolute;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top 10% left 0 ;
+    top: 0;
+    left: 0;
+    filter: brightness(40%);
+}
+.company-values .value h2{
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    /* text-decoration: underline; */
+    text-underline-offset: 0.35rem;
+}
+.company-values .value p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+@media(max-width:930px) {
+    .company-values{
+        flex-flow: column;
+        gap: 2rem;
+    }
+    .company-values .value{
+        width: 100%;
+    }
+    .company-values .value img{
+        object-position: center;
+    }
+}
+@media(max-width:750px){
+    .company-values{
+        padding-top: 3rem;
+        padding-inline: 2rem;
+    }
+    .company-values .value h2{
+        font-size: 1.5rem;
+    }
+    .company-values .value p{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:500px){
+    .company-values{
+        padding-inline: 1rem;
+    }
+    .company-values img{
+        filter: brightness(20%);
+    }
+}

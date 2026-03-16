@@ -1,0 +1,90 @@
+.job {
+  width: 100%;
+  height: 90vh;
+  flex: 0 0 100%;
+  position: relative;
+  background-color: transparent;
+  padding: 2rem 10rem; 
+  display: flex;
+  gap: 3rem;
+  flex-flow: column;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.job h1 {
+  font-size: 3rem;
+  animation: txtSlideIn 0.5s linear forwards;
+  transform: translateX(100%);
+  opacity: 0;
+}
+.job p {
+  animation: txtSlideIn 0.5s linear forwards;
+  transform: translateX(100%);
+  animation-delay: 0.05s;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  opacity: 0;
+}
+.job::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.job img {
+  transition: all 0.5s ease;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  object-fit: cover;
+  object-position: center;
+  animation: fadeIn 0.5s linear forwards;
+}
+@keyframes txtSlideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@media(max-width: 800px){
+  .job{
+    height: 60vh;
+    padding-inline: 6rem;
+  }
+}
+@media(max-width:600px){
+  .job h1{
+    font-size: 2rem;
+  }
+  .job p{
+    font-size: 1rem;
+  }
+}
+@media (max-width:500px){
+  .job{
+    padding-inline: 2rem;
+    gap: 1rem;
+  }
+}

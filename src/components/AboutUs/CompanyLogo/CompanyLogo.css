@@ -1,0 +1,130 @@
+.logo-description{
+    background-image: url("https://i.postimg.cc/s25BSHfc/banner-02.jpg");
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-description .description-txt{
+    /* width: 100%; */
+    height: 60vh;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    width: 50%;
+    padding: 2rem 6rem;
+    padding-right: 0;
+}
+.logo-description .logo{
+    backdrop-filter: blur(8px);
+    background-color: rgba(0,0,0,0.6);
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    padding-left: 0;
+}
+.logo-description .logo img{
+    height: 90%;
+    width: 70%;
+    border-radius: 8px;
+}
+.description-txt > p{
+    font-size: 1.4rem;
+}
+.description-txt .parts-container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.description-txt .parts-container div{
+    width: 35vw;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.description-txt .parts-container div p{
+    font-size: 0.95rem;
+    /* line-height: 1.5; */
+}
+.description-txt .parts-container img{
+    width: 170px;
+    height: 190px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+}
+.description-txt .parts-container div:nth-child(2) img{
+    object-position: right 0 top 0;
+}
+.logo-description .equals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding-left: 2rem;
+}
+@media(max-width:1350px){
+    .logo-description .description-txt{
+        padding: 2rem;
+    }
+    .logo-description .logo{
+        padding: 2rem;
+    }
+    .logo-description .logo img{
+        width: 90%;
+    }
+}
+@media(max-width:1180px){
+    .logo-description{
+        flex-flow: column;
+    }
+    .logo-description .description-txt{
+        width: 100%;
+        padding-block: 1rem;
+        height: auto;
+    }
+    .logo-description .logo{
+        width: 100%;
+        height: auto;
+    }
+    .logo-description .logo img{
+        width: 50%;
+    }
+    .logo-description .equals{
+        height: 4rem;
+    }
+}
+@media(max-width:600px){
+    .logo-description .description-txt p{
+        font-size: 1rem;
+    }
+    .logo-description .parts-container img{
+        width: 100px;
+        height: 120px;
+    }
+    .logo-description .equals{
+        padding: 0;
+    }
+    .logo-description .description-txt{
+        padding: 1rem;
+    }
+    .logo-description .logo{
+        padding: 1rem;
+    }
+}
+@media(max-width:410px){
+    .logo-description .parts-container img{
+        width: 80px;
+        height: 100px;
+    }
+    .logo-description .parts-container div p{
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,114 @@
+.our-values {
+  padding: 2rem 6rem;
+  color: #312f44;
+  background-color: #fff;
+}
+.our-values > h1 {
+  font-size: 3rem;
+  transform: translateX(-6rem);
+  opacity: 0;
+}
+.our-values > h1.visible {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.our-values > hr {
+  background-color: #2d784e;
+  width: 10%;
+  height: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+}
+.our-values .values-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 2rem;
+  background-color: #fff;
+  transform: translateX(8rem);
+  opacity: 0;
+}
+.our-values .values-container.visible {
+  transition: all 0.5s ease;
+  opacity: 1;
+  transform: translateX(0);
+}
+.values-container div {
+  /* border: 1.5px solid #312F44; */
+  width: 30%;
+  padding: 2rem 1rem;
+  height: 20rem;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  background-color: #f7f7f7;
+  /* text-align: center; */
+}
+.values-container div:hover {
+  background-color: #2d784e;
+  border-color: #2d784e;
+  color: #fff;
+}
+.values-container div h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.values-container div h1.long {
+  margin-bottom: 0rem;
+}
+.values-container div p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  cursor: default;
+}
+
+@media (max-width: 1470px) {
+  .values-container div {
+    width: 28%;
+    height: 24rem;
+  }
+}
+@media (max-width: 1200px) {
+  .our-values {
+    padding-inline: 3rem;
+  }
+  .values-container div {
+    height: 28rem;
+  }
+}
+@media (max-width: 980px) {
+  .our-values .values-container {
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  .values-container div {
+    width: 47%;
+    height: 25rem;
+  }
+}
+@media (max-width: 660px) {
+  .our-values > h1 {
+    font-size: 2rem;
+  }
+  .values-container div {
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .our-values > h1 {
+    font-size: 1.5rem;
+  }
+  .our-values {
+    padding-inline: 1rem;
+  }
+  .values-container div h1 {
+    font-size: 1.2rem;
+  }
+  .values-container div p {
+    font-size: 0.9rem;
+  }
+}

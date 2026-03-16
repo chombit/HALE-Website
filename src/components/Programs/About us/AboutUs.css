@@ -1,0 +1,146 @@
+.about-us{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    display: flex;
+}
+
+.about-us .about-us-detail{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    padding-inline: 8rem;
+    justify-content: center; 
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.about-us .about-us-detail h1{
+    font-size: 3.6rem;
+}
+
+.about-us .about-us-detail .link{
+    display: flex;
+    flex-flow: column;
+    gap: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.about-us .about-us-detail .link p{
+    color: #47bd7a;
+    display: inline;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.about-us .about-us-detail .link p:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
+
+
+.about-us-img{
+    /* padding-block: 2rem; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about-us-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(84%);
+}
+
+@media (max-width:1300px){
+    .about-us{
+        height: 40vh;
+    }
+}
+@media (max-width:1200px){
+    .about-us .about-us-detail h1{
+        font-size: 3.1rem;
+    }   
+    .about-us .about-us-detail .link p{
+        font-size: 1.2rem;
+    }
+    .about-us .about-us-detail{
+        padding-inline: 6rem;
+    }
+}
+
+@media (max-width:1000px){
+    .about-us{
+        height: 35vh;
+    }
+}
+@media (max-width:800px){
+    .about-us .about-us-detail h1{
+        font-size: 2.8rem;
+    }   
+    .about-us .about-us-detail .link p{
+        font-size: 1.1rem;
+    }
+    .about-us .about-us-detail{
+        padding-inline: 5rem;
+    }
+}
+
+@media (max-width:605px){
+    .about-us{
+        height: 30vh;
+    }
+    .about-us .about-us-detail h1{
+        font-size: 2.5rem;
+    }   
+    .about-us .about-us-detail .link p{
+        font-size: 1rem;
+    }
+    .about-us .about-us-detail{
+        padding-inline: 4rem;
+    }
+}
+
+@media (max-width:500px){
+    .about-us{
+        height: 30vh;
+    }
+    .about-us .about-us-detail h1{
+        font-size: 2.3rem;
+    }   
+    .about-us .about-us-detail .link p{
+        font-size: 0.9rem;
+    }
+    .about-us .about-us-detail{
+        padding-inline: 3rem;
+        gap: 1.2rem;
+    }
+
+}
+
+@media (max-width:400px){
+    .about-us{
+        height: 25vh;
+    }
+    .about-us .about-us-detail h1{
+        font-size: 2rem;
+    }   
+    .about-us .about-us-detail .link{
+        gap: 0.3rem;
+    }
+    .about-us .about-us-detail{
+        padding-inline: 2rem;
+        gap: 0.9rem;
+    }
+}

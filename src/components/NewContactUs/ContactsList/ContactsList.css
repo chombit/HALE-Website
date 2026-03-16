@@ -1,0 +1,40 @@
+.contacts-list{
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    gap: 1.5rem;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-list .option{
+    transform: translateY(5rem);
+    opacity: 0;
+}
+.contacts-list.visible .option{
+    transform: translateY(0);
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+.contacts-list svg{
+    width: 50px;
+    height: 50px;
+    margin-top: 1.5rem;
+    fill: #312F44;
+}
+.contacts-list h2{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #1c452d;
+}
+
+@media(max-width:600px){
+    .contacts-list{
+        flex-flow: row;
+        align-items: flex-start;
+    }
+    .contacts-list svg{
+        width: 50px;
+        height: 50px;
+    }
+}

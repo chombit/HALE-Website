@@ -1,0 +1,133 @@
+.home-hero{
+    position: relative;
+    height: 87vh;
+}
+.home-hero .hero-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    object-fit: cover;
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.home-hero .hero-image.visible{
+    filter: blur(0);
+    opacity: 1;
+}
+.home-hero .hero-txt{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #312f44 5%, transparent);
+    color: #fff;   
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-left: 7rem;
+    gap: 2rem;
+}
+.home-hero .hero-txt h3{
+    transform: translateX(-4rem);
+    /* filter: blur(15px); */
+    opacity: 0;
+    transition: all 0.5s ease;
+    transition-delay: 0.4s;
+}
+.home-hero .hero-txt h3.visible{
+    transform: translateX(0%);
+    filter: blur(0px);
+    opacity: 1;
+    transition: all 0.5s ease;
+    transition-delay: 0.15s;
+}
+.home-hero .hero-txt h1{
+    font-size: 7rem;
+    letter-spacing: 0.2rem;
+    margin-top: -10rem;
+    transform: translateX(-4rem);
+    /* filter: blur(15px); */
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.home-hero .hero-txt h1.visible{
+    transform: translateX(0%);
+    filter: blur(0px);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.home-hero .hero-txt p{
+    font-size: 1.5rem;
+    transform: translateX(-4rem);
+    /* filter: blur(15px); */
+    opacity: 0;
+    transition: all 0.5s ease;
+    transition-delay: 1s;
+}
+.home-hero .hero-txt p.visible{
+    transform: translateX(0%);
+    filter: blur(0px);
+    opacity: 1;
+    transition: all 0.5s ease;
+    transition-delay: 0.3s;
+}
+.home-hero .hero-cta-btns{
+    transform: translateY(3rem);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.home-hero .hero-cta-btns.visible{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease;
+    transition-delay: 0.45s;
+}
+
+.home-hero .hero-cta-btns button{
+    background-color: #2d784e;
+    border: 3px solid #2d784e;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-right: 1.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.home-hero .hero-cta-btns button:hover{
+    background-color: #fff;
+    color: #2d784e;
+}
+
+@media(max-width:800px){
+    .home-hero{
+        height: 70vh;
+    }
+    .home-hero .hero-txt{
+        padding-left: 2rem;
+    }
+    .home-hero .hero-txt h1{
+        font-size: 4rem;
+    }
+    .home-hero .hero-txt p{
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width:450px){
+    .home-hero{
+        height: 60vh;
+    }
+    .home-hero .hero-txt{
+        padding-left: 1rem;
+    }
+    .home-hero .hero-txt h1{
+        font-size: 3rem;
+    }
+    .home-hero .hero-txt p{
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,87 @@
+.events-images .all-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.events-images{
+    padding: 2rem 6rem;
+}
+.events-images > button{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 0;
+    background-color: #2d784e;
+    color: #fff;
+    border-radius: 12px;
+}
+.events-images > h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+.events-images .selected-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  height: 80vh;
+  width: 100%;
+}
+.events-images .selected-image img {
+  height: 100%;
+  width: 100%;
+  object-position: top 10% left 0;
+  animation: fadeIn 0.3s linear forwards;
+  object-fit: contain;
+  object-position: center;
+}
+.events-images .selected-image img {
+  object-fit: cover;
+  border-radius: 6px;
+}
+.events-images .all-images img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.events-images .all-images img.current{
+    border: 5px solid #2d784e;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media(max-width:1000px){
+    .events-images .selected-image{
+        height: 60vh;
+    }
+}
+
+@media(max-width:800px){
+    .events-images{
+        padding: 2rem 2rem;
+    }
+    .events-images > h1{
+        font-size: 1.7rem;
+    }
+}
+@media(max-width:550px){
+    .events-images{
+        padding: 2rem 1rem;
+    }
+    .events-images > h1{
+        font-size: 1.3rem;
+    }
+    .events-images .selected-image{
+        height: 50vh;
+    }
+    .events-images > button{
+        font-size: 0.85rem;
+    }
+}

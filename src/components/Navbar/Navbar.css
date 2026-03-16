@@ -1,0 +1,126 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 4rem;
+    padding-bottom: 0;
+    background-color: #fff;
+    max-height: 13vh;
+    transition: all 0.2s ease;
+    position: relative;
+    z-index: 1000;
+}
+
+.navbar .logo img{
+    width: 220px;
+    height: 90px;
+    transition: all 0.2s ease;
+}
+.navbar .nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    transition: all 0.2s ease;
+}
+.navbar .nav-links a{
+    color: #312F44;
+    text-decoration: none;
+    padding: 0.7rem 0.7rem;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+.navbar .nav-links a.active{
+    /* background-color: #312F44;
+    color: #fff;
+    border-radius: 6px; */
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    text-decoration-thickness: 0.1rem;
+    transition: all 0.2s ease;
+}
+.navbar .hamburger-btn{
+    transition: all 0.2s ease;
+    width: 30px;
+    height: 30px;
+    fill: #312F44;
+    display: none;
+}
+.navbar .nav-links > button{
+    display: none;
+}
+.mobile-nav{
+    display: none;
+}
+.mobile-nav .mobile-logo img{
+    width: 200px;
+}
+
+@media(max-width:1200px){
+    .navbar{
+        padding-inline: 1rem;
+        position: relative;
+        padding-block: 0.5rem;
+    }
+}
+@media(max-width:1100px){
+    .navbar .nav-links{
+        gap: 1rem;
+        z-index: 700;
+    }
+}
+@media(max-width:1000px){
+    .navbar{
+        padding: 0rem;
+
+    }
+    .navbar.closed{
+        z-index: 1000;
+    }
+    .navbar.closed::before{
+        display: none;
+    }
+    .navbar .hamburger-btn{
+        display: flex;
+        position: relative;
+        z-index: 100;
+    }
+    .navbar .logo img{
+        width: 150px;
+        height: 50px;
+    }
+    .navbar .nav-links{
+        position: absolute;
+        flex-flow: column;
+        align-items: center;
+        gap: 1.5rem;
+        right: 0;
+        transform: translateY(16.5rem);
+        z-index: 500;
+        width: 100vw;
+        transition: all 0.4s ease;
+        background-color: #312F44;
+        color: #fff;
+        padding-block: 1.5rem;
+        
+    }
+    .navbar .nav-links a{
+        color: #fff;
+    }
+    .navbar.closed .nav-links{
+        transition: all 0.4s ease;
+        transform: translateY(-250%);
+    }
+    .navbar .nav-links > button{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        top: 5%;
+        right: 5%;
+        font-size: 1.5rem;
+        border: none;
+        padding: 1.1rem;
+        background-color: transparent;
+    }
+}

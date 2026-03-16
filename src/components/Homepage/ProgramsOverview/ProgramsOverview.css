@@ -1,0 +1,118 @@
+.programs-overview{
+    height: 70vh;
+    position: relative;
+    /* background-color: #2d784e; */
+    background-image: linear-gradient(to right, #2d784e, transparent);
+    color: #fff;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 0; */
+    gap: 3rem;
+}
+.programs-overview img{
+    position: absolute;
+    z-index: -5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top 30% left 0;
+}
+.programs-overview p{
+    color: transparent;
+    background-clip: text;
+    font-size: 4rem;
+    background-image: linear-gradient(to right, white 30%, #1d4930);
+    text-align: center;
+    font-weight: 800;
+    transform: translateX(6rem);
+    filter: blur(10px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.programs-overview p.visible{
+    transform: translateX(0%);
+    filter: blur(0px);
+    opacity:1;
+    transition: all 0.5s ease;
+    transition-delay: 0.3s;
+}
+.programs-overview button{
+    width: 20vw;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #312F44;
+    cursor: pointer;
+    position: relative;
+    transition: translateY 0.2s ease;
+    overflow: hidden;
+    transform: translateX(-7rem);
+    filter: blur(10px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.programs-overview button.visible{
+    transform: translateX(0%);
+    filter: blur(0px);
+    opacity: 1;
+    transition: all 0.5s ease;
+    transition-delay: 0.3s;
+
+}
+.programs-overview button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-150%);
+    background-color: #1d4930;
+    transition: all 0.2s ease;
+}
+.programs-overview button:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.programs-overview button:hover:after{
+    transform: translateY(0);
+    z-index: -3;
+}
+
+@media(max-width:1000px){
+    .programs-overview{
+        height: 50vh;
+        padding: 2rem;
+    }
+    .programs-overview p{
+        font-size: 2.5rem;
+    }
+    .programs-overview button{
+        width: 30vw;
+        font-size: 0.95rem;
+    }
+}
+@media(max-width:600px){
+    .programs-overview{
+        padding: 2rem 1rem;
+    }
+    .programs-overview p{
+        font-size: 1.7rem;
+    }
+    .programs-overview button{
+        width: 50vw;
+    }
+}
+@media(max-width:450px){
+    .programs-overview img{
+        object-position: top 0 left -50px;
+    }
+}

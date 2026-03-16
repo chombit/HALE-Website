@@ -1,0 +1,66 @@
+.company-description{
+    padding: 2rem 6rem;
+    color: #312F44;
+    background-color: #f7f7f7;
+    transform: translateY(7rem);
+    opacity: 0;
+}
+.company-description.visible{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease;
+    transition-delay: 0.2s;
+}
+.company-description h1{
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    color: transparent;
+    background-image: linear-gradient(to right, #312f44, #2d784e 15%);
+    background-clip: text;
+}
+.company-description hr{
+    width: 10%;
+    height: 0.5rem;
+    border: none;
+    background-color: #2d784e;
+    margin-bottom: 1rem;
+}
+.company-description h3{
+    color: transparent;
+    background-image: linear-gradient(to right, #312f44, #2d784e 50%);
+    background-clip: text;
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+}
+.company-description p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.1rem;
+}
+
+@media(max-width:900px){
+    .company-description{
+        padding-inline: 2rem;
+    }
+    .company-description h3{
+        font-size: 2rem;
+    }
+    .company-description p{
+        font-size: 0.95rem;
+    }
+}
+
+@media(max-width:600px){
+    .company-description{
+        padding-inline: 1rem;
+    }
+    .company-description hr{
+        width: 15%;
+    }
+    .company-description h3{
+        font-size: 1.3rem;
+    }
+    .company-description p{
+        font-size: 0.85rem;
+    }
+}

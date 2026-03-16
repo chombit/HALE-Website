@@ -1,0 +1,57 @@
+.contact-options{
+    padding: 2rem 6rem;
+    display: flex;
+    background-color: #f7f7f7;
+}
+.option{
+    width: 33%;
+    text-align: center;
+    color: #312F44;
+    transform: translateY(9rem);
+    opacity: 0;
+}
+.option.visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s ease;
+}
+.option.visible:nth-child(2){
+    transition-delay: 0.2s;
+}
+.option.visible:nth-child(3){
+    transition-delay: 0.4s;
+}
+.option div{
+    margin-bottom: 1.1rem;
+}
+.option svg{
+    width: 60px;
+    height: 60px;
+    fill: #312F44;
+    margin-bottom: 1rem;
+}
+
+@media(max-width:1000px){
+    .option h3{
+        font-size: 1.1rem;
+    }
+    .option h2{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:750px){
+    .contact-options{
+        padding: 2rem;
+    }
+}
+@media(max-width:600px){
+    .contact-options{
+        flex-flow: column;
+        gap: 2rem;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    .option{
+        width: 100%;
+    }
+}

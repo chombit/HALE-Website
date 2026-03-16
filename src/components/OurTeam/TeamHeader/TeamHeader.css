@@ -1,0 +1,44 @@
+.team-header{
+    padding: 1rem 6rem;
+    background-color: #f7f7f7;
+    color:#312F44;
+}
+.team-header h1{
+    font-size: 2.5rem;
+    transform: translateX(-8rem);
+    opacity: 0;
+}
+.team-header h1.visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease;
+}
+.team-header hr{
+    width: 10%;
+    height: 0.5rem;
+    background-color: #2d784e;
+    border: none;
+    margin-top: 1rem;
+}
+@media(max-width:700px){
+    .team-header{
+        padding-inline: 2rem;
+    }
+    .team-header h1{
+        font-size: 1.7rem;
+    }
+    .team-header hr{
+        width: 15%;
+    }
+}
+@media(max-width:550px){
+    .team-header{
+        padding-inline: 1rem;
+    }
+    .team-header h1{
+        font-size: 1.3rem;
+    }
+    .team-headerhr{
+        width: 20%;
+    }
+}

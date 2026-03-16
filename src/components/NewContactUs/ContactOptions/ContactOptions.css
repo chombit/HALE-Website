@@ -1,0 +1,57 @@
+.contact-options{
+    padding: 2rem 6rem;
+    background-color: #f7f7f7;
+}
+.contact-options h1{
+    font-size: 3rem;
+    color: #312F44;
+    margin-bottom: 1rem;
+    transform: translateX(-8rem);
+    opacity: 0;
+}
+.contact-options h1.visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease;
+}
+.contact-options hr{
+    width: 10%;
+    height: 0.5rem;
+    border: none;
+    background-color: #2d784e;
+}
+.contact-container{
+    display: flex;
+}
+.contact-container > div{
+    width: 50%;
+}
+@media(max-width:850px){
+    .contact-options{
+        padding-inline: 2rem;
+    }
+    .contact-options h1{
+        font-size: 2.3rem;
+        margin-bottom: 0.7rem;
+    }
+}
+@media(max-width:600px){
+    .contact-container{
+        flex-flow: column;
+        gap: 2rem;
+    }
+    .contact-container > div{
+        width: 100%;
+    }
+}
+@media(max-width:450px){
+    .contact-options{
+        padding-inline: 1rem;
+    }
+    .contact-options h1{
+        font-size: 1.6rem;
+    }
+    .contact-options hr{
+        width: 15%;
+    }
+}

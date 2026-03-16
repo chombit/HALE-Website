@@ -1,0 +1,241 @@
+.description{
+    background-color: #2d784e;
+    color: white;
+    height: 40vh;
+    display: flex;
+}
+
+.description .heading{
+    padding: 1rem 2rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    line-height: 2.3rem;
+    padding-right: 0.9rem;
+}
+
+.description .heading h2{
+    width: 100%;
+    transform: translateX(-9rem);
+    opacity: 0;
+}
+.description .heading h2.visible{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.description .detail{
+    padding: 1rem 2rem;
+    padding-left: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 50%;
+    line-height: 1.2rem;
+}
+.description .detail p{
+    transform: translateX(9rem);
+    opacity: 0;
+}
+.description .detail p.visible{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+@media (max-width:1500px) {
+ .hero{
+    height: 80vh;
+ }   
+
+}
+@media (max-width:1400px) {
+ .hero{
+    height: 75vh;
+ }   
+ .hero-cover p{
+    width: 32%;
+}
+
+.description{
+    height: 40vh;
+}
+
+.description .heading{
+    font-size: 1.2rem;
+}
+
+}
+@media (max-width:1305px) {
+ .hero{
+    height: 65vh;
+ }   
+ 
+}
+/* @media (max-width:1200px) {
+ .hero{
+    height: 55vh;
+ }   
+.hero-cover h1{
+    font-size: 3.1rem;
+}
+.hero-cover p{
+    font-size: 0.8rem;
+}
+} */
+
+@media (max-width:1100px) {
+    
+    .hero-cover h1{
+        font-size: 2.8rem;
+    }
+    .description{
+        height: 35vh;
+    }
+    
+    .description .heading{
+        font-size: 1rem;
+    }
+
+    .hero-cover h1{
+        width: 35%;
+    }
+
+    .description .detail{
+        font-size: 0.7rem;
+    }
+   }
+
+   @media (max-width:1000px) { 
+    .hero-cover h1{
+        font-size: 2.5rem;
+    }
+    .hero-cover p{
+        font-size: 0.6rem;
+    }
+    
+   }
+
+   @media (max-width:905px) {
+    .hero-cover h1{
+        font-size: 2.2rem;
+        width: 40%;
+    } 
+   
+
+    }
+    @media (max-width:800px) {
+        .hero{
+           height: 48vh;
+
+        }   
+        .hero-cover p{
+            width: 37.5%;
+        }
+        .hero-cover h1{
+            width: 45%;
+        }
+        .hero .hero-cover{
+            padding-inline: 4rem;
+        }
+      
+        
+      
+       }
+       @media (max-width:705px) {
+        .hero{
+           height: 40vh;
+        } 
+        .hero .hero-cover{
+            padding-inline: 2.5rem;
+        }  
+        .hero-cover h1{
+            font-size: 2rem;
+        }
+        .hero-cover p{
+            width: 40%;
+        }
+        .hero img{
+            object-position: 0 -80px;
+        }
+        .description .heading{
+            font-size: 0.75rem;
+            padding-inline: 1.5rem;
+        }
+
+        
+       }
+       @media (max-width:610px){
+        .hero{
+            height: 35vh;
+         } 
+         .hero img{
+            object-position: 0 -60px;
+        }
+        .description{
+            flex-flow: column;
+            /* justify-content: center; */
+            padding: 1.5rem 2.5rem;
+            height: 35vh;
+        }
+        .description .heading{
+            width: 100%;
+            padding: 0;
+            line-height: 1.5rem;
+        }
+        .description .detail{
+            padding-inline: 0;
+            width: 100%;
+            /* font-size: 0.5rem; */
+        }
+        .hero-cover h1{
+            font-size: 1.7rem;
+        }
+        .hero-cover p{
+            font-size: 0.5rem;
+        }
+       }
+       @media (max-width:500px) {
+        .hero{
+            height: 28vh;
+        } 
+        .hero .hero-cover{
+            padding-inline: 1.5rem;
+        }
+        .hero-cover h1{
+            width: 40%;
+            font-size: 1.5rem;
+        }
+        .hero img{
+            object-position: 0 -55px;
+        }
+        .description{
+            padding-inline: 1.5rem;
+        }
+        
+       }
+       @media (max-width:410px){
+        .hero{
+            height: 25vh;
+        } 
+        .hero-cover h1{
+            font-size: 1.2rem;
+        }
+        .hero img{
+            object-position: 0 -50px;
+        }
+        .description{
+            padding: 1rem;
+            gap: 0rem;
+        }
+        .description .heading{
+            margin-top: 1rem;
+            width: 100%;
+        }
+        
+       }
+    

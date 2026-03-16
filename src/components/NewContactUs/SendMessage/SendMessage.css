@@ -1,0 +1,159 @@
+.send-message{
+    background-color: #312F44;
+    color: #fff;
+    padding: 2rem 6rem;
+}
+.send-message h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    transform: translateX(-10rem);
+    opacity: 0;
+}
+.send-message h1.visible{
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.send-message form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(5rem);
+    opacity: 0;
+}
+.send-message form.visible{
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.send-message form div{
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    align-self: flex-start;
+}
+.send-message form div label{
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+.send-message form div input{
+    width: 15rem;
+    border: none;
+    padding: 0.2rem;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 1rem;
+}
+.send-message form div input::placeholder{
+    color: #f7f7f7;
+}
+.send-message form div textarea{
+    width: 50vw;
+    height: 40vh;
+    background-color: #f7f7f7;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
+    border-radius: 7px;
+}
+.send-message button{
+    background-color: #fff;
+    border: none;
+    color: #312F44;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 2.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 6rem;
+    margin: 0 auto;
+}
+.send-message button:disabled{
+    opacity: 0.85;
+    cursor: not-allowed;
+}
+.send-message hr{
+    width: 10%;
+    height: 0.5rem;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 4.5rem;
+}
+
+.success-msg{
+    border: 1px solid #005107;
+    width: 35%;
+    position: fixed;
+    z-index: 2000;
+    top: 0.3rem;
+    left: 35vw;
+    text-align: center;
+    color: #005107;
+    background-color: #c2ffe3;
+    padding: 0.3rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    animation: successMsg 0.3s ease-in-out forwards;
+}
+@keyframes successMsg{
+    from{
+        transform: translateY(-5rem);
+        /* top: -5rem; */
+    }
+    to{
+        transform: translateY(0);
+        /* top: 0.3rem; */
+    }
+}
+@media(max-width:1000px){
+    .send-message{
+        padding-inline: 2rem;
+    }
+    .send-message h1{
+        font-size: 2rem;
+    }
+    .success-msg h2{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:650px){
+    .send-message form{
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .send-message form div{
+        width: 100%;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .send-message form div textarea{
+        width: 75%;
+    }
+    .send-message h1{
+        font-size: 1.4rem;
+    }
+    .send-message hr{
+        margin-bottom: 1rem;
+    }
+    .success-msg{
+        width: 50%;
+        left: 25%;
+    }
+}
+@media(max-width:500px){
+    .send-message{
+        padding-inline: 1rem;
+    }
+    .send-message form div textarea{
+        width: 100%;
+    }
+    .send-message form div label{
+        font-size: 1.1rem;
+    }
+    .success-msg h2{
+        font-size: 0.9rem;
+    }
+}
