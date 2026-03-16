@@ -609,16 +609,56 @@ export default function GeneralProvider({ children }) {
 
   const teams = [
     {
-      name: "Woyesa Woka Worana",
-      image: "https://i.postimg.cc/k5SxcjDG/6U5A9080.jpg",
+      name: "Derara Ansha Roba",
+      image: "https://i.postimg.cc/J49mTfq5/Whats-App-Image-2025-08-09-at-9-58-59-PM.jpg",
       position:
-        "Founder of HALE: Human Rights and Inclusion Network (H-HRIN) | Human Rights Lawyer | Policy Leader & Advocate | Climate Justice Activist | Social Impact Leader | Inclusion Champion | SDG Advocate | Gold Medalist",
+        " Co-Founder and Executive Director of HALE: Human Rights and Inclusion Network (H-HRIN) |Lecturer and Researcher at Oromia State University| Consultant at Law, LawBridge Partners| Legal Trainer| Committed Human Rights and Peace Advocate| SDGs Enthusiast | Former Lecturer of Laws at Dilla University | Former Project Reviewer and Coordinator-UNHCR & Dilla University | Former Free Legal Aid Service Provider: European Union Sponsored | Moot Court Champion and Best Oralist of 2018 | LLB from Hawassa University |Postgraduate from UiT-The Arctic University of Norway",
       description: [
-        "Woyesa is the founder of HALE: Human Rights and Inclusion Network (H-HRIN), a youth-led civil society organization dedicated to advancing human rights, fostering inclusion, and empowering marginalized communities. As a Human Rights Lawyer and Policy Advocate, Woyesa commited to advancing human rights, develops and promotes inclusive policies that protect vulnerable populations, advance gender equality, and strengthen democratic governance.",
-        "With a passion for social impact, Woyesa also founded KEAB Africa Community Development and Human Rights Promotion Organization (KACDHRPO), leading efforts in community-centered justice, environmental protection, and civic engagement. Believing in the power of policy reform and grassroots advocacy, they are committed to driving meaningful, sustainable change.",
-        "A distinguished academic, Woyesa graduated with honors from Hawassa University, earning an LLB and the prestigious Gold Medal Award for Academic Excellence. Their thesis, 'Recognition of Formal and Substantive Gender Equality and Policies under Ethiopian Labor Law,' explored gaps in labor law implementation and proposed strategies for gender-inclusive reforms. Woyesa has also contributed to research on women’s land rights within Ethiopia’s plural justice system, highlighting critical intersections of gender equality and legal frameworks.",
+        "Derara Ansha Roba is Co-Founder and Executive Director of HALE: Human Rights and Inclusion Network (H-HRIN). He is a passionate advocate for human rights, peace, conflict dynamics, legal pluralism, and indigenous justice institutions, working to create inclusive societies where every voice is valued.",
+        "He earned his LLB with great distinction from Hawassa University, where he won the Third National Moot Court Competition on International Humanitarian Law as Best Oralist and became the first student to represent the university at the All Africa Moot Court Competition in Arusha, Tanzania. His commitment to service was equally notable; under his leadership and active participation, the Hawassa University Free Legal Aid Centre received an Award of Excellence from Shashemene Woreda Court.",
+        "He later obtained his Master of Philosophy in Indigenous Studies from UiT – The Arctic University of Norway, where he engaged in interdisciplinary studies combining law, anthropology, political science, history, and indigenous methodologies. His outstanding thesis on legal pluralism integrated doctrinal legal and ethnographic research methods, earning top recognition. His scholarship has since contributed to the field through publications in prestigious journals such as the African Journal on Conflict Resolution and the Journal of Law and Conflict Resolution.",
+        "Currently, Derara serves as Executive Director at HALE, Lecturer and Researcher of Law at Oromia State University, and Legal Consultant at LawBridge Partners. He also works as a Legal Trainer on GBV, child rights, and peacebuilding, while continuing to advance human rights, peace, and the SDGs nationally and globally.",
 
-        "Beyond professional achievements, Woyesa is dedicated to community service, offering pro bono legal aid to underserved populations and mentoring young professionals. Through their work at H-HRIN and beyond, Woyesa strives to advance the Sustainable Development Goals (SDGs) and foster a future of inclusion, justice, and sustainability."
+      ],
+    },
+    {
+      name: " Fenot Mekonen Hailu",
+      image: "https://i.postimg.cc/N0rwRpT8/Photo.jpg",
+      position:
+        "Deputy Director & Lead for Partnership and External Representation, Human Rights and Inclusion Network (H-HRIN) | Legal Trainee, EU Delegation to AU | Disability Rights Advocate | Child, Governance & Business and Human Rights | Peace & SDGs Enthusiast | Former Associate Human Rights Officer, EHRC | Legal Assistant, FIDA Uganda | Intern, Centre for Human Rights, University of Pretoria | LLB, Haramaya University | LLM, University of Pretoria",
+      description: [
+        "Fenot Mekonen Hailu is a dedicated human rights advocate and co-founder of HALE: Human Rights and Inclusion Network (H-HRIN). Her work focuses on gender equality, disability, child rights, peace, governance, social justice, and the SDGs, aiming to create an inclusive society where everyone can thrive. She earned her LLB with distinction from Haramaya University College of Law, where she demonstrated exceptional leadership through initiatives such as providing free legal aid to underserved communities and holding key positions, including Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for the Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum.",
+        "She holds an LLM in Human Rights and Democratisation in Africa from the University of Pretoria, South Africa. Her professional experience includes internships at the Centre for Human Rights (Freedom of Expression and Disability Units), serving as a Legal Assistant at FIDA Uganda, and working as an Intern and Associate Human Rights Officer at the Ethiopian Human Rights Commission. She also contributed to the AAU-UNHRC free legal aid project and participated in international programs such as the Aspire Institute and the Online Professional English Network at the University of Arizona. , and inclusion.",
+        "Currently, she serves as Deputy Director & Lead for Partnership and External Representation at HALE: Human Rights and Inclusion Network and Legal Trainee at the European Union Delegation to the African Union, continuing her commitment to advancing human rights both locally and globally.",
+      ],
+    },
+    {
+      name: "Woyesa Woka Worana",
+      image: "https://i.postimg.cc/Bbzr8F6T/photo-2026-03-16-09-39-14.jpg",
+      position:
+        "Human Rights and Policy Advocate",
+      description: [
+        "Woyesa is a graduate student at the Max Bell School of Public Policy, McGill University. He holds a law degree and serves as a human rights advocate with HALE-Human Rights and Inclusion Network.",
+      ],
+    },
+    {
+      name: "Mesay Samuel",
+      image: "https://i.postimg.cc/C1n8bTLd/mesi.jpg",
+      position:
+        " SDG advocate/sustained dialogue moderator /volunteer /peace advocate /youthempowerment/media literacy/countering hatespeech/LLb candidate /peace project runner/Hawassa university /Focal person at HALE  Human right and inclusion network (H-HRIN)/SDG Ambassador /climate justice ",
+      description: [
+        "Mesay Samuel is a passionate law student dedicated to youth empowerment, peacebuilding, and sustainable climate action. Currently pursuing a Bachelor of Laws at Hawassa University and a Bachelor of Business Management at Infolink University College, Mesay combines academic excellence with active leadership in impactful initiatives",
+        "With extensive experience in project management, advocacy, and stakeholder engagement, Mesay serves as the SDG Ambassadors Team Head at UNA ET HU, Board Chair of the HUSU Youth Advisory Board, and Project Coordinator at the Hawassa University Peace Club. He has also contributed as Assistant Manager at EHPSA, Intern at HALE Human Rights and Inclusion Network, and Advisory Board Member at ICE Addis Venture Meda Project.Mesay’s work focuses on implementing the United Nations Sustainable Development Goals through community-based projects, policy advocacy, and youth-led initiatives. His leadership style emphasizes collaboration, inclusivity, and practical problem-solving to create long-term social impact. Beyond his professional and academic commitments, he enjoys playing football and connecting with nature, reflecting his belief in balance, well-being, and environmental stewardship.",
+      ],
+    },
+    {
+      name: "Nahom Worku Hanka",
+      position:
+        "Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network (H:HRIN) |Software Developer",
+      image: "https://i.postimg.cc/HWcnXw1r/nahom.jpg",
+      description: [
+        "Nahom Worku Hanka is a recent Computer Science graduate with a deep commitment to leveraging technology to advance human rights, social inclusion, and justice. As Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network, Nahom applies his technical expertise to develop innovative digital solutions that support H:HRIN’s mission of promoting human rights and social equity.",
+        "His academic journey, enriched by successful software development projects, has equipped him with strong skills in programming, mobile application development, and software engineering. Nahom's internship experience in creating an Android-based healthcare system reinforced his passion for developing technologies that positively impact people's lives. Driven by a desire to use technology as a force for good, Nahom is dedicated to contributing meaningfully to H:HRIN’s vision of a more just and inclusive society.",
       ],
     },
     {
@@ -726,23 +766,6 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
-      name: "Fenot Mekonen Hailu",
-      position:
-        "Co-Founder, HALE: Human Rights and Inclusion Network (H-HRIN) | Gender Issues and Human Rights Advocate | SDGs Enthusiast | LLM in Human Rights and Democratization in Africa Candidate at the University of Pretoria",
-      image: "https://i.postimg.cc/TPxQVKNr/Team-photo.jpg",
-      description: [
-        "Fenot Mekonen Hailu is a dedicated human rights advocate and a co-founder of HALE: Human Rights and Inclusion Network (H-HRIN). With a deep commitment to gender equality, social justice, and the United Nations Sustainable Development Goals (SDGs), Fenot's work is centered on creating an inclusive society where everyone can thrive.",
-
-        "She earned her LL.B. with distinction from Haramaya University College of Law in August 2022. During her academic journey, Fenot demonstrated exceptional leadership and advocacy, providing free legal aid to underserved communities and holding key leadership positions such as Vice President of the English Language Improvement Center, Executive Member of the Haramaya University Girls Union, Coordinator for Female Law Students and Legal Professionals Network, and Women's Affairs Head of the Haramaya University Peace Forum.",
-
-        "After graduation, Fenot continued her commitment to human rights by interning at the Ethiopian Human Rights Commission under the socio-economic department and serving as a paralegal for the AAU-UNHRC free legal aid project. Her dedication to social impact is further exemplified by her involvement with the Aspire Institute and the Online Professional English Network at George Mason University.",
-
-        "Currently, Fenot is pursuing her LLM in Human Rights and Democratization in Africa at the University of Pretoria, South Africa. Her ongoing internships with the Freedom of Expression, Information, and Digital Rights Unit, the Disability Unit at the Centre for Human Rights, and the Network of Public Interest Lawyers in Kampala, Uganda, reflect her unwavering commitment to advancing human rights on a global scale.",
-
-        "Fenot's passion for gender issues, human rights, and sustainable development drives her work at H-HRIN, where she plays a crucial role in shaping initiatives that promote justice, equality, and inclusion for all.",
-      ],
-    },
-    {
       name: "Essey Peteros Firiso",
       position:
         "Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN) | President of Hawassa University Student Union | Vice President of Ethiopian Higher Education Institutions Student Union | Human Rights and Social Justice Advocate",
@@ -806,16 +829,6 @@ export default function GeneralProvider({ children }) {
         "In addition to his work with Skill Connect Ethiopia, Basleal is the co-founder of Unitatem Joint Venture Association, a collaborative savings partnership inspired by the traditional Ethiopian /'ekub/ system. This initiative reflects his commitment to financial empowerment and community building, providing members with a structured approach to saving and financial growth.",
         "Basleal's dedication to youth empowerment is demonstrated through his volunteer work as the Youth Engagement Coordinator at Hawassa University Student Union. In this role, he has been instrumental in organizing and leading initiatives that engage young people in meaningful activities, fostering leadership, and promoting active participation in community service.",
         "Through his various roles and initiatives, Basleal Mekonen Mengesha continues to inspire and empower young people across Ethiopia. His work at the intersection of technology, entrepreneurship, and community development positions him as a key driver of positive change, both within HALE and in the broader community.",
-      ],
-    },
-    {
-      name: "Nahom Worku Hanka",
-      position:
-        "Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network (H:HRIN) |Software Developer",
-      image: "https://i.postimg.cc/HWcnXw1r/nahom.jpg",
-      description: [
-        "Nahom Worku Hanka is a recent Computer Science graduate with a deep commitment to leveraging technology to advance human rights, social inclusion, and justice. As Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network, Nahom applies his technical expertise to develop innovative digital solutions that support H:HRIN’s mission of promoting human rights and social equity.",
-        "His academic journey, enriched by successful software development projects, has equipped him with strong skills in programming, mobile application development, and software engineering. Nahom's internship experience in creating an Android-based healthcare system reinforced his passion for developing technologies that positively impact people's lives. Driven by a desire to use technology as a force for good, Nahom is dedicated to contributing meaningfully to H:HRIN’s vision of a more just and inclusive society.",
       ],
     },
     {
