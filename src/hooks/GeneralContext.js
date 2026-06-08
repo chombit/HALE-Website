@@ -642,26 +642,6 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
-      name: "Mesay Samuel",
-      image: "https://i.postimg.cc/C1n8bTLd/mesi.jpg",
-      position:
-        " SDG advocate/sustained dialogue moderator /volunteer /peace advocate /youthempowerment/media literacy/countering hatespeech/LLb candidate /peace project runner/Hawassa university /Focal person at HALE  Human right and inclusion network (H-HRIN)/SDG Ambassador /climate justice ",
-      description: [
-        "Mesay Samuel is a passionate law student dedicated to youth empowerment, peacebuilding, and sustainable climate action. Currently pursuing a Bachelor of Laws at Hawassa University and a Bachelor of Business Management at Infolink University College, Mesay combines academic excellence with active leadership in impactful initiatives",
-        "With extensive experience in project management, advocacy, and stakeholder engagement, Mesay serves as the SDG Ambassadors Team Head at UNA ET HU, Board Chair of the HUSU Youth Advisory Board, and Project Coordinator at the Hawassa University Peace Club. He has also contributed as Assistant Manager at EHPSA, Intern at HALE Human Rights and Inclusion Network, and Advisory Board Member at ICE Addis Venture Meda Project.Mesay’s work focuses on implementing the United Nations Sustainable Development Goals through community-based projects, policy advocacy, and youth-led initiatives. His leadership style emphasizes collaboration, inclusivity, and practical problem-solving to create long-term social impact. Beyond his professional and academic commitments, he enjoys playing football and connecting with nature, reflecting his belief in balance, well-being, and environmental stewardship.",
-      ],
-    },
-    {
-      name: "Nahom Worku Hanka",
-      position:
-        "Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network (H:HRIN) |Software Developer",
-      image: "https://i.postimg.cc/HWcnXw1r/nahom.jpg",
-      description: [
-        "Nahom Worku Hanka is a recent Computer Science graduate with a deep commitment to leveraging technology to advance human rights, social inclusion, and justice. As Co-Founder and Digital Officer at HALE: Human Rights and Inclusion Network, Nahom applies his technical expertise to develop innovative digital solutions that support H:HRIN’s mission of promoting human rights and social equity.",
-        "His academic journey, enriched by successful software development projects, has equipped him with strong skills in programming, mobile application development, and software engineering. Nahom's internship experience in creating an Android-based healthcare system reinforced his passion for developing technologies that positively impact people's lives. Driven by a desire to use technology as a force for good, Nahom is dedicated to contributing meaningfully to H:HRIN’s vision of a more just and inclusive society.",
-      ],
-    },
-    {
       name: "Dansita Asefa Adela",
       position:
         "Co-Founder at HALE: Human Rights and Inclusion Network| Gender Equality & Human Rights Advocate | Researcher |SDGs | Social Impact Leader",
@@ -673,21 +653,6 @@ export default function GeneralProvider({ children }) {
         "Dansita’s previous roles further highlight her commitment to social change and legal empowerment. As a Project Officer at the Resource Centre for Sustainable Change (RCSC), she coordinated projects focused on sustainable development and community empowerment. Additionally, she served as the Focal Person for Gender Mainstreaming at the Sidama Industrial Parks Development Corporation, where she worked to integrate gender perspectives into development projects and policies.",
         "Her experience as a Lecturer at Hawassa University, School of Law, and as a Human Rights Volunteer at the Hawassa University Legal Aid Center, reflects her dedication to education and capacity building in the legal field. Dansita’s work in academia and her volunteer efforts have contributed to the development of future legal professionals and the provision of essential legal services to marginalized communities.",
         "Dansita’s unwavering commitment to human rights, gender equality, and sustainable development continues to inspire her work at HALE: Human Rights and Inclusion Network, where she strives to create a more just and inclusive society.",
-      ],
-    },
-    {
-      name: "Dr. Shiferaw Muleta Eyana (PhD)",
-      position:
-        "Associate Professor | Tourism Entrepreneurship Development Expert | Co-founder & Board Member, HALE: Human Rights and Inclusion Network |SDGs & Human Rights Rights Advocate",
-      image: "https://i.postimg.cc/WzKKSxmc/shif-new-photo.jpg",
-      description: [
-        "Dr. Shiferaw Muleta Eyana is a distinguished academic and expert in Tourism Entrepreneurship Development, currently serving as an Associate Professor at the College of Development Studies, Addis Ababa University (AAU). With a rich academic background in geography and environmental studies, Dr. Shiferaw has devoted over eighteen years to teaching and research across various higher education institutions in Ethiopia.",
-        "Recently, Dr. Shiferaw was elected as an Executive Member of AAU's Teacher Association, further demonstrating his leadership and dedication to advancing education and academic governance in Ethiopia.",
-        "Dr. Shiferaw earned his PhD from Vrije Universiteit Amsterdam, where he successfully defended his dissertation titled 'Entrepreneurial Behaviour and Firm Performance of Ethiopian Tour Operators' in November 2017. His academic journey also includes a Bachelor of Arts in Geography and History and a Master of Science in Geography and Environmental Studies from Kotebe Metropolitan University and Addis Ababa University, respectively.",
-        "At AAU, Dr. Shiferaw is actively engaged in numerous initiatives, including PhD curriculum design and MA curriculum reviews in Tourism Development and Management (TDDM). He contributes significantly to the academic community as a member of various committees, such as the National Conference of CDS and the Strategic Directions of the CDS, reflecting his collaborative and forward-thinking approach.",
-        "Dr. Shiferaw's previous roles include PhD Researcher at the Center for Entrepreneurship, Vrije Universiteit Amsterdam, and Lecturer at the Institute of Development Studies, Addis Ababa University. He has also served as a Lecturer at the Department of Geography and Environmental Education, AAU, and Dilla University, as well as a Teacher Educator at Arbaminch Teacher Training College.",
-        "Beyond his academic pursuits, Dr. Shiferaw has played a crucial role in Ethiopia's democratic processes, serving as a Moderator of Inter-party Dialogue (IPD) under the National Election Board of Ethiopia (NEBE). His commitment to impartiality and fairness led to his unanimous selection by the Joint Council of Political Parties of Ethiopia in 2019. Additionally, he has contributed as an Environmentalist for the UN-Habitat's Regional Development and Spatial Planning project, focusing on regions such as Sidama and Southwest Ethiopia.",
-        "As a co-founder and board member of the HALE: Human Rights and Inclusion Network, Dr. Shiferaw leverages his extensive experience in education, research, and public service to drive the organization's mission of promoting human rights, inclusion, and sustainable development. His work continues to inspire and influence both his students and colleagues, as well as the broader community.",
       ],
     },
     {
@@ -708,140 +673,7 @@ export default function GeneralProvider({ children }) {
         "Tsion’s leadership, advocacy, and unwavering commitment to human rights and gender equality make her an invaluable asset to HALE: Human Rights and Inclusion Network. Her work continues to inspire and drive meaningful impact in the pursuit of a more just and inclusive world.",
       ],
     },
-    {
-      name: "Biniam Solomon Lale",
-      position:
-        "Board Chairman at HALE: Human Rights and Inclusion Network | President at Northern Sidaama Zone High Court | Former Judge | Legal Drafting Expert | LLM in International Law",
-      image: "https://i.postimg.cc/XYRD14L8/6U5A8870.jpg",
-      description: [
-        "Biniam Solomon Lale is a distinguished legal professional and jurist with a profound commitment to justice, ethics, and human rights in Ethiopia. As the Board Chairman of HALE: Human Rights and Inclusion Network (H-HRIN), Biniam plays a pivotal role in guiding the organization’s strategic vision and ensuring its mission to promote human rights and social inclusion is achieved.",
-        "Biniam holds a Master of Laws (LLM) degree in International Laws from Ethiopian Civil Service University, where he graduated with Great Distinction, earning an Excellent grade for his thesis titled 'The Assessment of Practical Implementation of Prisoners' Rights at Some of the Former SNNPRS Prisons.' He also holds a Degree of Laws (LLB) from the School of Law at Jimma University, where he graduated with Distinction. His academic achievements reflect his deep expertise and dedication to the field of law.",
-        "Currently, Biniam serves as the President of the Northern Sidaama Zone High Court. In this prominent role, he leads the judiciary with integrity and a steadfast commitment to delivering justice. His leadership is characterized by a strong adherence to ethical principles and a relentless pursuit of fair legal outcomes.",
-        "Biniam’s career is marked by significant judicial and ethical contributions. He was not only one of the key drafters of the Sidama National Regional State Constitution but was also actively engaged in drafting all the establishing laws for the Sidama National Regional State as a member of the region's Legal Drafting Taskforce. These contributions have been instrumental in shaping the legal and governance framework of the region.",
-        "In addition to his judicial roles, Biniam has been a strong advocate for ethical governance. He previously worked as the Ethics Education and Trainings Advisor and Trainer of Corruption Crime Laws at the Former Southern Nations, Nationalities, and Peoples' Region (SNNPR) Ethics and Anti-Corruption Commission, where he played a crucial role in promoting transparency and combating corruption.",
-        "As the Board Chairman of HALE: Human Rights and Inclusion Network, Biniam Solomon Lale brings a wealth of experience, a passion for justice, and a commitment to ethical leadership. His guidance is vital to the organization’s efforts to advance human rights, foster social inclusion, and uphold the rule of law in Ethiopia.",
-      ],
-    },
-    {
-      name: "Meseret Melke Shibru ",
-      position:
-        "Co-Founder & Board Vice Chair of HALE: Human Rights and Inclusion Network | Legal Expert & Advocate for Human Rights",
-      image: "https://i.postimg.cc/HLQcX9j2/6U5A8092.jpg",
-      description: [
-        "Ms. Meseret Melke Shibru is an accomplished legal professional and passionate advocate for human rights, serving as the Co-Founder and Board Vice Chair of HALE: Human Rights and Inclusion Network. With a strong academic background and extensive experience in law, Ms. Meseret brings a wealth of knowledge and dedication to advancing justice and human rights in Ethiopia.",
-        "Ms. Meseret obtained her LLB degree in Law with Distinction from Hawassa University, where she excelled academically and laid the foundation for her legal career. She furthered her education by earning an LLM degree in International Law from Ethiopian Civil Service University, equipping herself with specialized knowledge to navigate complex legal challenges on both national and international levels.",
-        "In her current role, Ms. Meseret serves as the Head of the Public Attorney's Regional Council Office at the Sidama Justice Bureau. In this capacity, she oversees legal proceedings and ensures that justice is administered fairly and effectively across the region.",
-        "Ms. Meseret’s previous roles demonstrate her commitment to combating human rights abuses and illegal activities. She has served as the Head of the Illegal Human Trafficking and Human Rights Office at the Sidama Attorney General Office, where she played a pivotal role in addressing human trafficking and protecting vulnerable individuals. Her judicial experience includes positions as an Assistant Judge at the Sidama Zone High Court and the Dalle Woreda Court, where she made significant contributions to upholding the rule of law.",
-        "During her final year at Hawassa University, Ms. Meseret also served as a Paralegal for the Addis Ababa University Human Rights Center, where she gained invaluable experience in human rights advocacy and legal support, further solidifying her dedication to justice and equality.",
-        "As a Co-Founder and Board Vice Chair of HALE: Human Rights and Inclusion Network, Ms. Meseret leverages her extensive legal expertise and passion for human rights to help steer the organization toward achieving its mission. Her leadership and commitment are instrumental in shaping initiatives that promote justice, human rights, and social inclusion in Ethiopia and beyond.",
-      ],
-    },
-    {
-      name: "Wondewosen Yohanis Jekamo",
-      position:
-        "Co-Founder & Board Member at HALE: Human Rights and Inclusion Network |Lecturer | Legal Expert & Advocate for Justice",
-      image: "https://i.postimg.cc/zf29CGb8/6U5A8862.jpg",
-      description: [
-        "Wondewosen Yohanis Jekamo is a distinguished legal professional and academic, serving as a Co-Founder and Board Member of HALE: Human Rights and Inclusion Network. With a profound commitment to justice, human rights, and legal education, Wondewosen brings a wealth of experience and expertise to the organization, contributing to its mission of promoting inclusion and protecting human rights.",
-        "Wondewosen holds an LLM in Commercial Law from Hawassa University and an LLB in Law from Jimma University, where he graduated with distinction. His academic achievements have laid a strong foundation for his impactful career in the legal field.",
-        "Currently, Wondewosen serves as a Lecturer at Hawassa University Law School, where he is dedicated to educating the next generation of legal professionals. In addition to his academic role, he works as a lawyer and consultant, offering legal expertise and guidance in various areas of law.",
-        "Wondewosen's career is marked by significant judicial and legal roles. He previously served as a Supreme Court Judge in the Southern Nations, Nationalities, and Peoples' Region (SNNPR), where he was instrumental in upholding justice and the rule of law at the highest level within the region. His judicial experience also includes positions as a Judge at the Hawassa City High Court and the Hadiya Zone High Court, where he made substantial contributions to the legal system.",
-        "In addition to his judicial roles, Wondewosen has also served as a Trainer at the SNNPR Judicial Center, where he played a key role in enhancing the skills and knowledge of judicial officers within the region. His early career included serving as a Public Prosecutor at the Hadiya Zone Justice Office, where he was committed to ensuring justice and fairness in legal proceedings.",
-        "As a Co-Founder and Board Member of HALE: Human Rights and Inclusion Network, Wondewosen leverages his extensive legal experience and passion for human rights to help guide the organization in its efforts to create a more just and inclusive society. His dedication to justice, legal education, and human rights advocacy makes him an invaluable asset to the organization and its mission.",
-      ],
-    },
-    {
-      name: "Ashenafi Argata Yona",
-      position:
-        "Board Member, HALE: Human Rights and Inclusion Network | Dean at Hawassa Tegbar-ID Polytechnic College | Leadership & Civil Engineering Expert",
-      image: "https://i.postimg.cc/nL1MScZb/6U5A8848.jpg",
-      description: [
-        "Ashenaf Argata Yona is a distinguished leader in the fields of education, management, and civil engineering. With an impressive academic background and extensive professional experience, Ashenaf has dedicated his career to advancing technical education and fostering leadership development in Ethiopia.",
-        "Ashenaf holds a Master of Arts in Leadership and Management from the FDRE TVET Institute, where he graduated with great distinction. His advanced studies in leadership and management have equipped him with the skills to effectively guide educational institutions and drive organizational success. Additionally, he earned a Bachelor’s Degree in Civil Engineering from Hawassa University, graduating with distinction. His strong technical foundation in civil engineering has been instrumental in his professional roles, where he has applied his expertise to urban development and educational infrastructure.",
-        "Currently, Ashenaf serves as the Dean of Hawassa Tegbar-ID Polytechnic College, a role he has held since Jan 2023. In this capacity, he oversees the college’s academic programs, faculty development, and institutional growth, ensuring that students receive a high-quality education that prepares them for the demands of the workforce. His leadership has been pivotal in positioning the college as a leading institution in technical and vocational education in the region.",
-        "Before his tenure as Dean, Ashenaf was the Vice Dean at Hawassa City Administration’s Hawela Tula TVET College, where he played a key role in academic administration and institutional management. His experience also includes serving as a Lecturer at Silte Zone Dalocha Construction and Industrial College, where he imparted his knowledge and skills to aspiring engineers and technical professionals.",
-        "In addition to his academic roles, Ashenaf has contributed to urban development as a Land Management and Preparation Expert at Bona Zurya Woreda Urban Development. His work in this area has involved planning and executing land development projects that support urban growth and infrastructure development.",
-        "As a Board Member of HALE: Human Rights and Inclusion Network, Ashenaf brings his leadership expertise and commitment to education and development to the organization. He is passionate about promoting human rights, inclusion, and sustainable development, and his insights are invaluable in guiding the organization’s strategic direction.",
-        "Ashenaf is committed to advancing technical education, fostering leadership, and contributing to Ethiopia's sustainable development. His work continues to inspire future generations of leaders, engineers, and professionals.",
-      ],
-    },
-    {
-      name: "Essey Peteros Firiso",
-      position:
-        "Co-Founder of HALE: Human Rights and Inclusion Network (H-HRIN) | President of Hawassa University Student Union | Vice President of Ethiopian Higher Education Institutions Student Union | Human Rights and Social Justice Advocate",
-      image: "https://i.postimg.cc/s239Bt1m/essey.jpg",
-      description: [
-        "Essey is an LLB candidate at Hawassa University with a profound dedication to human rights and social justice. As the Founder of Tesfa Counseling Association, Essey has established a platform that provides essential support and guidance to individuals in need, reflecting his commitment to making a positive impact in his community.",
-        "In his role as President of the Hawassa University Student Union, Essey leads initiatives that empower students and enrich their educational experiences. His leadership extends beyond the university, serving as Vice President of the Ethiopian Higher Education Institutions Student Union, where he advocates for the rights and interests of students at a national level.",
-        "Essey’s unwavering commitment to social causes, combined with his leadership in advancing human rights, makes him a vital part of HALE: Human Rights and Inclusion Network. As Co-Founder of H-HRIN, Essey is instrumental in driving the organization’s mission to foster a just and inclusive society for all.",
-      ],
-    },
-    {
-      name: "Tafesse Tekle Sokare",
-      position:
-        "Co-Founder at HALE: Human Rights and Inclusion Network | Lawyer at Commercial Bank of Ethiopia | Human Rights Advocate | Former Judge | LLM in Commercial Law",
-      image: "https://i.postimg.cc/fbn3nhnC/6U5A7019.jpg",
-      description: [
-        "Tafesse Tekle Sokare is a seasoned legal expert with a deep commitment to justice, human rights, and social equity. As one of the Co-Founders of HALE: Human Rights and Inclusion Network (H-HRIN), Tafesse has been instrumental in establishing the organization’s foundation and driving its mission to advocate for human rights and promote social inclusion in Ethiopia.",
-        "Tafesse holds a Master of Laws (LLM) in Commercial Law from Hawassa University, where he specialized in the intricacies of commercial law and its impact on both local and global economies. He also earned a Degree of Laws (LLB) from the School of Law at Hawassa University, graduating with Distinction, a testament to his academic excellence and profound understanding of the legal field.",
-        "Currently, Tafesse serves as a Lawyer at the Commercial Bank of Ethiopia, where he applies his extensive legal knowledge to navigate the complex legal landscape of the banking sector. His role is pivotal in ensuring that the bank operates within the bounds of commercial law while upholding the highest standards of legal compliance and ethical practices.",
-        "Tafesse’s career is distinguished by a diverse range of legal experiences. He has served as a General Attorney for the Sidama Region Attorney, where he provided legal counsel on matters of regional and national significance. His role as a Customs and Tax Related Crime Investigator and Prosecutor at the Ethiopia Revenue and Customs Authority involved rigorous investigations and prosecutions aimed at maintaining the integrity of Ethiopia’s revenue collection system.",
-        "Moreover, Tafesse’s judicial experience is notable. He has served as a Judge at both the Sidama Zone High Court and the Hawassa Zuria First Instance Court. In these capacities, he was responsible for delivering justice in complex legal cases, demonstrating fairness, impartiality, and a deep commitment to the rule of law.",
-      ],
-    },
-    {
-      name: "Maregnesh Mengesha Worana",
-      image: "https://i.postimg.cc/rFbMFwj6/6U5A9360.jpg",
-      position:
-        "Co-Founder & Communications Officer at HALE: Human Rights and Inclusion Network | Journalism and Communication Graduate | Human Rights & Gender Equality Advocate ",
-      description: [
-        "Maregnesh is a dedicated advocate for human rights and social inclusion, currently serving as the Communications Officer at HALE: Human Rights and Inclusion Network. With a strong passion for using media to drive positive change, Maregnesh brings her expertise in journalism and communication to amplify the voices of marginalized and vulnerable communities.",
-        "Maregnesh graduated with distinction from Wollo University, earning a Bachelor of Arts degree in Journalism and Communication. Her academic journey was marked by her insightful research on 'The Impact of Facebook in the Case of Wollo University Students,' reflecting her keen interest in the intersection of social media and community engagement.",
-        "Prior to her role at HALE: Human Rights and Inclusion Network, Maregnesh served as a Volunteer Event Coordinator at Wollo University, where she honed her skills in organizing impactful events and fostering community collaboration. Her commitment to advancing human rights and her dedication to effective communication make her an invaluable asset to the HALE: Human Rights and Inclusion Network team.",
-      ],
-    },
-    {
-      name: "Daniel Tamirat Maru",
-      position:
-        "Accountant of HALE: Human Rights and Inclusion Network | Finance Expert & Consultant",
-      image: "https://i.postimg.cc/SQt6yV92/6U5A7716.jpg",
-      description: [
-        "Daniel Tamirat Maru is a seasoned finance professional with extensive experience in accounting and financial management. He serves as the Accountant at HALE: Human Rights and Inclusion Network, where he plays a crucial role in managing the organization's financial activities and ensuring transparency and accountability in financial reporting.",
-        "Daniel is General Manager of Daniel Tamirat Authorized Accounting firm and holds a Master of Arts Degree in Business Administration with a specialization in Accounting from Dilla University, as well as a Bachelor of Arts Degree in Accounting from Hawassa University. His strong educational background has equipped him with the knowledge and skills needed to excel in various financial roles.",
-        "Throughout his career, Daniel has held several significant positions in the finance sector. He served as a Financial Consultant at Isabella Socks and Manufacturing PLC, where he provided strategic financial guidance and contributed to the company's financial stability. At Indochine Apparel PLC, he worked as a Finance Senior Executive, overseeing financial operations and ensuring compliance with financial regulations.",
-        "Daniel also gained valuable experience as an Assistant Finance Manager at JP Textile Ethiopia Company, where he managed financial planning and analysis, budgeting, and financial reporting. Additionally, he served as a Senior Accountant at PVH Arvind Manufacturing PLC, where he was responsible for maintaining accurate financial records and supporting the company's financial goals.",
-        "With his deep expertise in accounting and finance, Daniel is dedicated to supporting HALE's mission by ensuring the organization's financial health and integrity. His commitment to excellence and his ability to navigate complex financial challenges make him an invaluable asset to the team.",
-      ],
-    },
-
-    {
-      name: "Basleal Mekonen Mengesha",
-      position:
-        "Co-Founder & Technology and Innovation Lead Officer at HALE: Human Rights and Inclusion Network | Technology Enthusiast",
-      image: "https://i.postimg.cc/L4Cn4PFn/6U5A7482.jpg",
-      description: [
-        "Basleal Mekonen Mengesha is a dynamic and visionary leader with a passion for technology, youth empowerment, and community development. As a co-founder of HALE: Human Rights and Inclusion Network, Basleal brings a unique blend of expertise in information systems, youth engagement, and entrepreneurship to the organization's mission of promoting human rights and inclusion.",
-
-        "Basleal holds a Bachelor's Degree in Information Systems from Hawassa University, where he developed a strong foundation in technology and its applications in solving real-world problems. His academic background equips him with the skills to leverage digital tools and platforms in driving social change.",
-
-        "Basleal’s entrepreneurial spirit is evident in his role as the founder of Skill Connect Ethiopia, a gig website designed to connect skilled professionals with opportunities in various sectors. This platform not only bridges the gap between talent and opportunity but also empowers individuals to monetize their skills and contribute to the economy.",
-
-        "In addition to his work with Skill Connect Ethiopia, Basleal is the co-founder of Unitatem Joint Venture Association, a collaborative savings partnership inspired by the traditional Ethiopian /'ekub/ system. This initiative reflects his commitment to financial empowerment and community building, providing members with a structured approach to saving and financial growth.",
-        "Basleal's dedication to youth empowerment is demonstrated through his volunteer work as the Youth Engagement Coordinator at Hawassa University Student Union. In this role, he has been instrumental in organizing and leading initiatives that engage young people in meaningful activities, fostering leadership, and promoting active participation in community service.",
-        "Through his various roles and initiatives, Basleal Mekonen Mengesha continues to inspire and empower young people across Ethiopia. His work at the intersection of technology, entrepreneurship, and community development positions him as a key driver of positive change, both within HALE and in the broader community.",
-      ],
-    },
-    {
-      name: "Fekadu Paulos Gujo",
-      position:
-        "Co-founder, HALE: Human Rights and Inclusion Network | Assistant Professor of Law | PhD Candidate",
-      image: "https://i.postimg.cc/0yxxpmpr/photo-2024-10-12-06-43-10.jpg",
-      description: [
-        "Fekadu Paulos Gujo is an accomplished legal professional and academic with a deep commitment to human rights and social justice. He holds an LL.B and LL.M and is currently an Assistant Professor of Law at Hawassa University, where he also pursues his PhD. His academic career has been marked by a passion for teaching and mentoring the next generation of legal experts, alongside his active work as an Attorney and Consultant at Law.",
-        "Fekadu brings a wealth of experience to HALE: Human Rights and Inclusion Network, having held significant leadership roles in public service. He previously served as the Head of both the Trade and Industry Bureau and the Public Service and Human Resource Development Bureau of Sidama Region, where he played a key role in shaping policies that promote good governance and economic development. His judicial experience as a former judge at Hawassa City High Court adds further depth to his legal expertise, especially in matters of justice and governance.",
-        "As a co-founder of H-HRIN, Fekadu is dedicated to advancing the organization's mission of fostering inclusion, equality, and human rights. His extensive experience in law, governance, and public service uniquely positions him to contribute to H-HRIN’s goal of creating a more just and equitable society, especially for marginalized and vulnerable communities.",
-      ],
-    },
+    
   ];
 
   const resources = [
