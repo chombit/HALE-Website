@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Handle API and admin routes - let Apache serve PHP files directly
+RewriteCond %{REQUEST_URI} ^/api/ [OR]
+RewriteCond %{REQUEST_URI} ^/admin/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ - [L]
+
+# Handle uploads - serve static files directly
+RewriteCond %{REQUEST_URI} ^/uploads/
+RewriteRule ^ - [L]
+
+# SPA fallback - serve index.html for all other routes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]

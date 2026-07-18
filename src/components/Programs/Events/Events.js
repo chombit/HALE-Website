@@ -1,16 +1,26 @@
 import { useNavigate } from "react-router-dom"
 import "./Events.css"
-import { useContext } from "react"
-import {GeneralContext} from "./../../../hooks/GeneralContext"
+import { useEffect, useState } from "react"
+import { API_BASE_URL } from "./../../../hooks/GeneralContext"
 export default function Events({title,imgName}){
     const navigate = useNavigate()
-    const {events} = useContext(GeneralContext)
+    const [events, setEvents] = useState([])
+
+    useEffect(function(){
+        fetch(`${API_BASE_URL}/events.php?limit=1`)
+            .then(res => res.json())
+            .then(data => setEvents(data.events || []))
+            .catch(err => console.error("Failed to fetch events:", err))
+    }, [])
+
+    if(events.length === 0) return null
+
     let name =""
-    if(events[0].name.length > 50){
-        name = events[0].name.slice(0, 50) + "..."
+    if(events[0].title.length > 50){
+        name = events[0].title.slice(0, 50) + "..."
     }
     else{
-        name = events[0].name
+        name = events[0].title
     }
     return(  
             <div className="program-event">
@@ -21,7 +31,7 @@ export default function Events({title,imgName}){
                     <h3>{name}</h3>
                 </div>
                 <div className="eventButton">
-                    <button onClick={()=>(navigate(`/events/0`))}>Read more</button>
+                    <button onClick={()=>(navigate(`/events/${events[0].id}`))}>Read more</button>
                 </div>
             </div>
         

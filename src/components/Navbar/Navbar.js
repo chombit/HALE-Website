@@ -38,6 +38,9 @@ export default function Navbar() {
         <NavLink onClick={() => setNavOpen(false)} to="/events">
           Events
         </NavLink>
+        <NavLink onClick={() => setNavOpen(false)} to="/articles">
+          Articles
+        </NavLink>
         <NavLink onClick={() => setNavOpen(false)} to="/resources">
           Resources
         </NavLink>

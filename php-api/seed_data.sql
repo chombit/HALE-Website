@@ -1,0 +1,12 @@
+INSERT INTO events (title, description, images) VALUES
+('Youth as Catalysts for Change', 'Our Executive Director, Mr. Woyesa Woka, led an energizing session on youth as the catalysts for change. He inspired participants to embrace their roles as community change-makers.\n\nIts inspiring to see our young leaders driven by a shared vision of impact!', '["https://i.postimg.cc/XvZmwC1M/event9-img1.jpg","https://i.postimg.cc/cJVjTLPv/event9-img2.jpg"]'),
+('Inspiring Words from University Leaders', 'Our Human Rights Advocacy Training was launched with powerful messages from Dr. Debrework Debebe, Dean of the College of Law and Governance, Hawassa University.', '["https://i.postimg.cc/wMhdDmvx/event8-img1.jpg","https://i.postimg.cc/15QSsJC8/event8-img2.jpg","https://i.postimg.cc/fWXsG6K4/event8-img3.jpg"]'),
+('Reflecting and Grateful', 'As we look back at our International Human Rights Day Celebration on December 10, 2024, we at HALE feel immense gratitude for the partnerships, energy, and inspiration that made the day truly unforgettable.', '["https://i.postimg.cc/QC5jSz63/event7-img1.jpg"]'),
+('Planting the Seeds of Change', 'HALE-HRIN took a significant step towards environmental protection and climate justice by organizing a tree-planting event in Tabor Mountain, Hawassa, Ethiopia.', '["https://i.postimg.cc/TYP6cSb7/img1.jpg","https://i.postimg.cc/ncwtSkYH/img2.jpg","https://i.postimg.cc/vZgwJV35/img3.jpg","https://i.postimg.cc/g2Cbm2TQ/img4.jpg"]');
+
+INSERT INTO resources (title, file_path, thumbnail_path) VALUES
+('Gender Equality and Social Inclusion in Ethiopia', './assets/resources/gesi_polciy_brief_published.pdf', './assets/resources/gender-equality-social-inclusion.png'),
+('Handbook on the Rights of Children in Ethiopia', './assets/resources/handbook_on_the_rights_of_children_in_Ethiopia.pdf', './assets/resources/handbook_on_the_rights_of_children_in_Ethiopia.png'),
+('Inclusion of People with Disabilities in Ethiopia', './assets/resources/inclusion-of-people-with-disabilities-in-ethiopia.pdf', './assets/resources/inclusion-of-people-with-disabilities-in-ethiopia.png'),
+('Closing the Gender Gap: Womens Rights in Ethiopia and Mexico', './assets/resources/closing-the-gender-gap-ethiopia-and-mexico.pdf', './assets/resources/closing-the-gender-gap-ethiopia-and-mexico.png'),
+('Ethiopian Environmental Policy: Challenges and Prospects', './assets/resources/ethiopian-environmental-policy-challenges-and-prospects.pdf', './assets/resources/ethiopian-environmental-policy-challenges-and-prospects.png');

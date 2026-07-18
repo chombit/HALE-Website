@@ -1,40 +1,98 @@
 .contacts-list{
-    margin-top: 3rem;
-    text-align: center;
+    margin-top: 2rem;
     display: flex;
-    gap: 1.5rem;
-    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 1.2rem;
     justify-content: center;
-    align-items: center;
 }
-.contacts-list .option{
-    transform: translateY(5rem);
+.contact-card{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: calc(50% - 0.6rem);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transform: translateY(3rem);
     opacity: 0;
 }
-.contacts-list.visible .option{
+.contacts-list.visible .contact-card{
     transform: translateY(0);
-    transition: all 0.5s ease;
     opacity: 1;
+    transition: all 0.5s ease;
 }
-.contacts-list svg{
-    width: 50px;
-    height: 50px;
-    margin-top: 1.5rem;
-    fill: #312F44;
+.contacts-list.visible .contact-card:nth-child(1){
+    transition-delay: 0.1s;
 }
-.contacts-list h2{
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    color: #1c452d;
+.contacts-list.visible .contact-card:nth-child(2){
+    transition-delay: 0.2s;
+}
+.contacts-list.visible .contact-card:nth-child(3){
+    transition-delay: 0.3s;
+}
+.contacts-list.visible .contact-card:nth-child(4){
+    transition-delay: 0.4s;
+}
+.contact-card-icon{
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    background-color: #e8f5ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-card-icon svg{
+    width: 22px;
+    height: 22px;
+    fill: #2d784e;
+}
+.contact-card-info h3{
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #312F44;
+    margin-bottom: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+.contact-card-info a,
+.contact-card-info span{
+    font-size: 0.95rem;
+    color: #555;
+    text-decoration: none;
+    word-break: break-all;
+}
+.contact-card-info a:hover{
+    color: #2d784e;
 }
 
-@media(max-width:600px){
+@media(max-width:850px){
     .contacts-list{
-        flex-flow: row;
-        align-items: flex-start;
+        gap: 1rem;
     }
-    .contacts-list svg{
-        width: 50px;
-        height: 50px;
+    .contact-card{
+        width: 100%;
+        padding: 1.2rem 1.5rem;
+    }
+}
+@media(max-width:450px){
+    .contact-card{
+        padding: 1rem 1.2rem;
+    }
+    .contact-card-icon{
+        width: 38px;
+        height: 38px;
+    }
+    .contact-card-icon svg{
+        width: 18px;
+        height: 18px;
+    }
+    .contact-card-info h3{
+        font-size: 0.8rem;
+    }
+    .contact-card-info a{
+        font-size: 0.85rem;
     }
 }

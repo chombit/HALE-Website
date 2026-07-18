@@ -1,33 +1,33 @@
-import { useContext } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { GeneralContext } from "../../../hooks/GeneralContext";
-import "./OpenEventContent.css"
+import { API_BASE_URL } from "../../../hooks/GeneralContext";
+import "./OpenEventContent.css";
+
 export default function OpenEventContent() {
-  const { events } = useContext(GeneralContext);
-  const { index } = useParams();
-  
+  const { id } = useParams();
+  const [event, setEvent] = useState(null);
+
+  useEffect(function () {
+    fetch(`${API_BASE_URL}/events.php?id=${id}`)
+      .then((res) => res.json())
+      .then((data) => setEvent(data))
+      .catch((err) => console.error("Failed to fetch event:", err));
+  }, [id]);
+
+  if (!event) return null;
+
+  const description = event.description || "";
+  const paragraphs = description
+    .split("\n\n")
+    .filter((p) => p.trim() !== "");
+
   return (
-    <div className="open-event">     
-      <h2>{events[index].description.p1.heading  ? events[index].description.p1.heading : ""}</h2>
-      <p>{events[index].description.p1.content  ? events[index].description.p1.content : ""}</p>
-      <h2>{events[index].description.p2.heading  ? events[index].description.p2.heading : ""}</h2>
-      <p>{events[index].description.p2.content ? events[index].description.p2.content : ""}</p>
-      <h2>{events[index].description.p3.heading ? events[index].description.p3.heading : ""}</h2>
-      <p>{events[index].description.p3.content ? events[index].description.p3.content : ""}</p>
-      <h2>{events[index].description.p4.heading ? events[index].description.p4.heading : ""}</h2>
-      <p>{events[index].description.p4.content ? events[index].description.p4.content : ""}</p>
-      <h2>{events[index].description.p5.heading ? events[index].description.p5.heading : ""}</h2>
-      <p>{events[index].description.p5.content ? events[index].description.p5.content : ""}</p>
-      <h2>{events[index].description.p6.heading ? events[index].description.p6.heading : ""}</h2>
-      <p>{events[index].description.p6.content ? events[index].description.p6.content : ""}</p>
-      <h2>{events[index].description.p7.heading ? events[index].description.p7.heading : ""}</h2>
-      <p>{events[index].description.p7.content ? events[index].description.p7.content : ""}</p>
-      {/* <h2>{events[index].description.p8.heading ? events[index].description.p8.heading : ""}</h2>
-      <p>{events[index].description.p8.content ? events[index].description.p8.content : ""}</p>
-      <h2>{events[index].description.p9.heading ? events[index].description.p9.heading : ""}</h2>
-      <p>{events[index].description.p9.content ? events[index].description.p9.content : ""}</p>
-      <h2>{events[index].description.p10.heading ? events[index].description.p10.heading : ""}</h2>
-      <p>{events[index].description.p10.content ? events[index].description.p10.content : ""}</p> */}
+    <div className="open-event">
+      {paragraphs.length > 0 ? (
+        paragraphs.map((para, i) => <p key={i}>{para}</p>)
+      ) : (
+        <p>{description}</p>
+      )}
     </div>
   );
 }

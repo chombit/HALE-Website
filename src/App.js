@@ -14,6 +14,8 @@ import OpenTeam from "./pages/OpenTeam";
 import Resources from "./pages/Resources";
 import PageNotFound from "./pages/PageNotFound";
 import Contact from "./pages/NewContactUs";
+import Articles from "./pages/Articles";
+import OpenArticle from "./components/OpenArticle/OpenArticle";
 
 export default function App() {
   const {navOpen} = useContext(GeneralContext)
@@ -28,10 +30,12 @@ export default function App() {
           {/* <Route element={<ContactUs />} path="/contact" /> */}
           <Route element={<Contact />} path="/contact" />
           <Route element={<Events />} path="/events" />
-          <Route element={<OpenEvent />} path="/events/:index" />
+          <Route element={<OpenEvent />} path="/events/:id" />
           <Route element={<OurTeam/>} path="/team" />
-          <Route element={<OpenTeam/>} path="/team/:index" />
+          <Route element={<OpenTeam/>} path="/team/:id" />
           <Route element={<Resources/>} path="/resources" />
+          <Route element={<Articles/>} path="/articles" />
+          <Route element={<OpenArticle/>} path="/articles/:id" />
           <Route element={<PageNotFound/>} path="/*" />
         </Routes>
         <Footer />

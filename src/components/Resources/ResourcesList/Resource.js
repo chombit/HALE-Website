@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "react";
+
 export default function Resource({ resource }) {
   const resourceRef = useRef();
   const [visible, setVisible] = useState(false);
+
   useEffect(function () {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -16,16 +18,17 @@ export default function Resource({ resource }) {
     );
     observer.observe(resourceRef.current);
   }, []);
+
   return (
     <div ref={resourceRef} className={`resource ${visible ? "visible" : ""}`}>
       <div>
-        <h2>{resource.name}</h2>
-        <a href={resource.path} download={true}>
+        <h2>{resource.title}</h2>
+        <a href={resource.file_path} download={true}>
           Download
         </a>
       </div>
       <div>
-        <img src={resource.imgPath} alt="" />
+        <img src={resource.thumbnail_path} alt="" />
       </div>
     </div>
   );
